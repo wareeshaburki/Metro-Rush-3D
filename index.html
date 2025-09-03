@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Metro Rush 3D</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Metro Rush 3D</h1>
+    </header>
+    <div id="main-content-wrapper">
+      <div id="game-area-wrapper">
+        <div id="game">
+          <div id="character"></div>
+        </div>
+      </div>
+      <div id="info-area-wrapper">
+        <div id="scoreboard">
+          <div id="distance">Distance: 0</div>
+          <div id="coins">Coins: 0</div>
+          <div id="highScoreDisplay">
+            High Score: <span id="highScore">0</span>
+          </div>
+        </div>
+        <div id="controls">
+          <button id="leftButton">Left</button>
+          <button id="upButton">Jump</button>
+          <button id="rightButton">Right</button>
+        </div>
+      </div>
+    </div>
+    <div id="gameOverScreen" style="display: none">
+      <h2>Game Over</h2>
+      <p>Your Score: <span id="finalScore"></span></p>
+      <button id="restart" onclick="restartGame()">Restart</button>
+    </div>
+    <audio id="bgMusic" src="background.mp3" loop></audio>
+    <audio id="jumpSound" src="jump-sound-14839.mp3"></audio>
+    <audio id="coinSound" src="drop-coin-384921.mp3"></audio>
+    <script src="script.js"></script>
+  </body>
+</html>
