@@ -14,7 +14,7 @@ body {
 }
 
 header {
-  width: 100%;
+  width: 100vw;
   background: #18234f;
   padding: 10px;
   text-align: center;
