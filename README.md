@@ -32,9 +32,4 @@ This is my first complete game project without using tutorials. I built it step 
 - **CSS3**  
 - **Vanilla JavaScript (ES6)**  
 
----
-
-## 📂 Project Setup
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/endless-runner-game.git
+--
