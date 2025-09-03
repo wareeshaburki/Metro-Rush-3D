@@ -163,3 +163,32 @@ h1 {
 #gameOverScreen #restart:hover {
   background-color: #222;
 }
+
+@media (max-width: 600px) {
+  #main-content-wrapper {
+    flex-direction: column; 
+    padding: 10px;/* Reduce padding */
+  }
+
+  #game {
+    width: 90%; 
+    height: auto; 
+  }
+
+  #info-area-wrapper {
+    max-width: 100%; 
+  }
+
+  #controls {
+    flex-direction: column;
+  }
+
+  #controls button {
+    width: 80%; 
+    margin: 10px 0; 
+  }
+
+  #scoreboard {
+    font-size: 20px; 
+  }
+}
