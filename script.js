@@ -14,9 +14,9 @@ let obstacles = [];
 let coinItems = [];
 let gameRunning = true;
 
-const characterWidth = 100;
-const obstacleWidth = 40;
-const coinWidth = 20;
+const characterWidth = 75;
+const obstacleWidth = 30;
+const coinWidth = 22;
 const laneWidth = game.clientWidth / 3;
 
 const characterLanePositions = [];
@@ -26,9 +26,9 @@ for(let i = 0; i < 3; i++){
 
 let characterCurrentLane = 1;
 let isJumping = false;
-const jumpHeight = 120;
+const jumpHeight = 90;
 const jumpDuration = 700;
-const originalCharacterBottom = 50;
+const originalCharacterBottom = 40;
 const jumpBufferTime = 100;
 let jumpEndTime = 0;
 let colors = ["#555", "#4a1101", "#2392b7", "#1ddbe9"];
